@@ -32,7 +32,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 
-
+	/* background-image: url('im'); */
 	/* background-image: url(images/overlay.png);
 	background-color: #cccccc; */
 }
@@ -1311,7 +1311,7 @@ input, select, textarea {
 	}
 
 	body {
-		background-image: url("/images/ellacreatesBG.jpg");
+		background-image: url("/assets/css/images/ellacreatesBG.jpg");
 		background-repeat: repeat, no-repeat;
 		background-size: 100%;
 		background-attachment: fixed;
@@ -1998,9 +1998,11 @@ input, select, textarea {
 				-webkit-align-items: center;
 				-ms-align-items: center;
 				align-items: center;
+				
 			}
 
 				#main > .panel.intro .pic {
+					background-color: #f57f09;
 					text-decoration: none;
 					position: relative;
 					-moz-flex-grow: 0;
